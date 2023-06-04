@@ -1,0 +1,241 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Module test June</title>
+  <link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+</head>
+
+<body>
+
+  <!--nav bar-->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary" id="nav">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Complex UI</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link "  href="#customFlex"> Section 1</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#gridL">Section 2</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#cards"> Section 3</a>
+          </li>
+
+
+
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button type="button" class="btn btn-outline-success">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <!-------------------------------Complete-------------------------------------------->
+
+  <!------------carousel------------------>
+
+
+  <div id="carouselExampleCaptions" class="carousel slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src=" https://media.istockphoto.com/id/1461022952/photo/black-friends-dancing-at-an-outdoor-dinner-party-celebration.jpg?s=1024x1024&w=is&k=20&c=q4GhdIwp6qP4-zmc7hda_y-boBdNCBexh10mDh1o70Y=" class="d-block w-100" alt="image">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Image 1</h5>
+          <p> Image 1  placeholder text.</p>
+          <button type="button" class="btn btn-primary">Call to action</button>
+        </div>
+
+      </div>
+      <div class="carousel-item">
+        <img
+          src="https://media.istockphoto.com/id/1464271364/photo/close-up-on-a-boot-and-a-ski-during-ski-touring-adventure.jpg?s=2048x2048&w=is&k=20&c=MbAmHX6NZBvdEZmU-bTju2mk-7r8Nq8Td_JnNefPU6g="
+          class="d-block w-100" alt="image">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Image 2 </h5>
+          <p> Image 2 ka placeholder text.</p>
+          <button type="button" class="btn btn-primary">Call to action</button>
+        </div>
+
+      </div>
+      <div class="carousel-item">
+        <img src="https://n4-q.mafengwo.net/s14/M00/13/69/wKgE2lz55baACPUOABSLJnPAMdg80.jpeg" class="d-block w-100" alt="image">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Image 3</h5>
+          <p> Image 3  placeholder text </p>
+          <button type="button" class="btn btn-primary">Call to action</button>
+        </div>
+
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+
+  </div>
+
+
+  <!---------------------------------carousel end--------------------------------------------------->
+
+
+  <!------------Custom flex CSS------------------>
+  <div class="customCSS" id="customFlex">
+    <div class="item">
+      <img src="https://images.unsplash.com/photo-1556912173-3bb406ef7e77?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8M3wxMTE4ODk0fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=500&q=60" alt="image"  id="photu"> <br>
+      <p>lorem ipsum dolor sit amet. </p>
+    </div>
+    <div class="item">
+      <img src="https://images.unsplash.com/photo-1556912173-3bb406ef7e77?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8M3wxMTE4ODk0fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=500&q=60" alt="image"  id="photu"> <br>
+      <p>lorem ipsum dolor sit amet. </p>
+    </div>
+    <div class="item">
+      <img src="https://images.unsplash.com/photo-1556912173-3bb406ef7e77?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8M3wxMTE4ODk0fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=500&q=60" alt="image"  id="photu"> <br>
+      <p>lorem ipsum dolor sit amet.</p>
+    </div>
+
+  </div>
+
+
+  <!------------------------------- flex Complete-------------------------------------------->
+
+
+
+
+
+
+  <!------------grid gallery------------------>
+  <div class="gallery" id="gridL">
+    <div class="gitem1">
+    <img src="https://images.unsplash.com/photo-1450368588160-81c4b8955c8c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8NHwxODY2Mzl8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="image" id="photu1">
+    </div>
+    <div class="gitem2">
+      <img src="https://images.unsplash.com/photo-1485629066172-81a49ed3aa29?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MTZ8NzY3MTg2fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=500&q=60" alt="image" id="photu1">
+    </div>
+    <div class="gitem3">
+      <img src="https://images.unsplash.com/photo-1599818405357-6bd363b04524?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDV8fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=500&q=60" alt="image" id="photu1">
+    </div>
+    <div class="gitem4">
+      <img src="https://images.unsplash.com/photo-1456699596497-9dc2f20aa2dc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8OXwxODY2Mzl8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="image" id="photu1">
+    </div>
+    <div class="gitem5">
+      <img src="https://images.unsplash.com/photo-1440637475816-2e8bf1d4b6f3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MTh8MTg2NjM5fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=500&q=60" alt="image" id="photu1">
+    </div>
+
+    <div class="gitem6">
+      <img src="https://images.unsplash.com/photo-1449237386841-d30ba36cd1bf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MjB8MTg2NjM5fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=500&q=60" alt="image" id="photu1">
+    </div>
+    <div class="gitem7">
+      <img src="https://images.unsplash.com/photo-1424847651672-bf20a4b0982b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MTl8MTg2NjM5fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=500&q=60" alt="image" id="photu1">
+    </div>
+    <div class="gitem8">
+      <img src="https://images.unsplash.com/photo-1460819739742-50e4486578f5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8M3wxODY2Mzl8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="image" id="photu1">
+    </div>
+    <div class="gitem9">
+    <img src="https://images.unsplash.com/photo-1486591038957-19e7c73bdc41?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8NXw3NjcxODZ8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="image" id="photu1">
+    </div>
+  </div>
+
+  <!-------------------------------grid khatam-------------------------------------------->
+
+
+
+
+
+
+
+
+
+  <!------cards------>
+
+  <div class="row row-cols-1 row-cols-md-3 g-4" id=cards>
+    <div class="col">
+      <div class="card h-100 shadow p-3 mb-5 bg-body-tertiary rounded">
+        <img src="https://images.unsplash.com/photo-1664964318756-e20f65bc46cb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDV8fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=500&q=60" class="card-img-top" alt="zsdgf">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. </p>
+              <button type="button" class="btn btn-outline-primary" id="ctc">Call to action</button>
+        </div>
+
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100 shadow-lg p-3 mb-5 bg-body-tertiary rounded">
+        <img src="https://images.unsplash.com/photo-1656882821118-a63cb5a698a4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDExfHx8ZW58MHx8fHx8&auto=format&fit=crop&w=500&q=60" alt="fgxh">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+              <button type="button" class="btn btn-outline-primary" id="ctc">Call to action</button>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100 shadow-lg p-3 mb-5 bg-body-tertiary rounded">
+        <img src="https://images.unsplash.com/photo-1656882821118-a63cb5a698a4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDExfHx8ZW58MHx8fHx8&auto=format&fit=crop&w=500&q=60" class="card-img-top" alt="dfh">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. </p>
+        <button type="button" class="btn btn-outline-primary" id="ctc">Call to action</button>
+        </div>
+
+      </div>
+    </div>
+  </div>
+<!------------------------------- cards Complete-------------------------------------------->
+
+  <!-----footer---->
+
+
+  <div class="container-fluid"  id="footer" >
+    <div class="container  column-gap-5">
+  <div class="row align-items-start">
+    <div class="col">
+      <h5>Useful Links</h5> <br><br>
+      <a href="#">Link 1</a> <br>
+      <a href="#">Link 2</a> <br>
+      <a href="#">Link 3</a> <br><br> <br>
+      <i class="fa-regular fa-copyright"></i> 2023 Complex UI. All rights reserved
+    </div>
+    <div class="col">
+      <h5>More Links</h5> <br><br>
+      <a href="#">Link 4</a> <br>
+      <a href="#">Link 5</a> <br>
+      <a href="#">Link 6</a>
+    </div>
+    <div class="col">
+      <h5>Contact Us</h5> <br><br>
+      <p>Email: example.com</p>
+      <p>Phone: +1(566) 123-4567</p> <br>
+      <button type="button" class="btn btn-primary"><a href="#nav" id="btn">Back to top</a></button>
+    </div>
+  </div>
+</div>
+  </div>
+
+  <!------------------------------- footer Complete-------------------------------------------->
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+
+</html>
